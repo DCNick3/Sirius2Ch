@@ -1,0 +1,69 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+textarea {
+    resize:vertical;
+}
+
+#vote-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    display: inline;
+    position: relative;
+    bottom: 17px;
+    margin: 5px;
+    border-bottom: 15px solid #cacaca;
+    transition: border-bottom-color 0.2s;
+    cursor: pointer;
+}
+
+#vote-up:hover {
+    border-bottom: 15px solid #5f5;
+}
+.vote-up-active {
+    border-bottom: 15px solid #5f5 !important;
+}
+
+#vote-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    display: inline;
+    position: relative;
+    top: 17px;
+    margin: 5px;
+    border-top: 15px solid #cacaca;
+    transition: border-top-color 0.2s;
+    cursor: pointer;
+}
+
+#vote-down:hover {
+    border-top: 15px solid #f55;
+}
+.vote-down-active {
+    border-top: 15px solid #f55 !important;
+}
+
+
+#vote-text {
+    font-size: 20px;
+}

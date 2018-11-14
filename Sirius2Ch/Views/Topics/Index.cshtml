@@ -1,0 +1,36 @@
+@using Microsoft.AspNetCore.Identity
+@model IEnumerable<Topic>
+@{
+    ViewData["Title"] = "Topics index";
+}
+
+@inject SignInManager<IdentityUser> SignInManager
+
+<div class='page-header'>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class='btn-toolbar pull-right'>
+            <div class='btn-group'>
+                <a class="btn btn-primary" asp-action="Create" role="button">Create topic</a>
+            </div>
+        </div>
+    }
+    <h2>@ViewData["Title"]</h2>
+</div>
+
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+        <th>@Html.DisplayNameFor(model => model.UpdateTime)</th>
+        <th>@Html.DisplayNameFor(model => model.Rating)</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><a asp-action="View" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a></td>
+            <td>@Html.DisplayFor(modelItem => item.UpdateTime)</td>
+            <td>@Html.DisplayFor(modelItem => item.Rating)</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,59 @@
+@using System.Text.RegularExpressions
+@using Microsoft.AspNetCore.Identity
+@model TopicView
+
+@{
+    ViewData["Title"] = Model.Topic.Name;
+}
+
+@inject SignInManager<IdentityUser> SignInManager
+
+<div class='page-header'>
+    <div class='pull-right'>
+        <a asp-action="Vote" asp-route-vote="true" asp-route-id="@Model.Topic.Id">
+            <div id="vote-up" 
+                 class="@(Model.CurrentVote == 1 ? "vote-up-active" : "")"
+            ></div>
+        </a>
+        
+        <span id="vote-text">@Html.Encode(Model.Topic.Rating)</span>
+        
+        <a asp-action="Vote" asp-route-vote="false" asp-route-id="@Model.Topic.Id">
+            <div id="vote-down"
+                 class="@(Model.CurrentVote == -1 ? "vote-down-active" : "")"
+            ></div>
+        </a>
+    </div>
+    <h2>@Html.DisplayFor(model => model.Topic.Name)</h2>
+</div>
+
+<hr>
+
+@foreach (var post in Model.Posts)
+{
+    <div class="panel panel-default" id="post-@post.Id">
+        <div class="panel-heading">#@Html.DisplayFor(model => post.Id) @@@Html.DisplayFor(model => post.Author.UserName)</div>
+        <div class="panel-body">
+            @if (post.Image != null)
+            {
+                <div class="col-md-2">
+                    <a href="@Url.Action("Fullsize", "Images", new { id = post.Image.Id })">
+                        <img src="@Url.Action("Preview256", "Images", new { id = post.Image.Id })" class="img-responsive" alt="Image preview"/>
+                    </a>
+                </div>
+            }
+            <div class="@(post.Image != null ? "col-md-10" : "")">
+                @foreach (var line in Regex.Split(post.Content, "\r\n|\n"))
+                {
+                    <p>@Html.DisplayFor(model => line)</p>
+                }
+            </div>
+
+        </div>
+    </div>
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    @await Html.PartialAsync("_PostAddPartial", Model.AddPostView)
+}
