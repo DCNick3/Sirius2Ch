@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfde1335-446b-46bf-9b72-86ab743c32a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/IdentityHostingStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/IdentityHostingStartup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/AccessDenied.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/AccessDenied.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Logout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Logout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Logout.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Logout.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Controllers/ImagesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Controllers/ImagesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Controllers/TopicsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Controllers/TopicsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/ImageUploader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/ImageUploader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Models/AddPostView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Models/AddPostView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Models/CreateTopicView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Models/CreateTopicView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Models/ImageModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Models/ImageModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Models/PostModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Models/PostModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Models/TopicModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Models/TopicModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Models/TopicView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Models/TopicView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/ScaffoldingReadme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/ScaffoldingReadme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Services/EmailSender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Services/EmailSender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Util.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Util.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Validators/FormFileValidatorAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Validators/FormFileValidatorAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Views/Shared/DisplayTemplates/_PrettyDateTemplate.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Views/Shared/DisplayTemplates/_PrettyDateTemplate.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Views/Shared/_PostAddPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Views/Shared/_PostAddPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Views/Topics/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Views/Topics/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Views/Topics/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Views/Topics/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sirius2Ch/Views/Topics/View.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Sirius2Ch/Views/Topics/View.cshtml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="918749795">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.110" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Config" value="3" />
+          <entry key="cs" value="109" />
+          <entry key="cshtml" value="98" />
+          <entry key="css" value="5" />
+          <entry key="js" value="3" />
+          <entry key="json" value="3" />
+          <entry key="sln" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="109" />
+          <entry key="CSS" value="5" />
+          <entry key="Config" value="3" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Razor" value="98" />
+          <entry key="Solution File" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="9655" />
+          <entry key="cshtml" value="3325" />
+          <entry key="css" value="310" />
+          <entry key="js" value="167" />
+          <entry key="json" value="3" />
+          <entry key="txt" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="9655" />
+          <entry key="CSS" value="310" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="167" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Razor" value="3325" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/IdentityHostingStartup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <marker date="1542178052225" expanded="false" signature="6:275" ph="..." />
+                <marker date="1542178052225" expanded="true" signature="455:621" ph="{...}" />
+                <marker date="1542178052225" expanded="true" signature="516:615" ph="{...}" />
+                <marker date="1542178052225" expanded="true" signature="588:603" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+              <folding>
+                <marker date="1542200638604" expanded="false" signature="6:394" ph="..." />
+                <marker date="1542200638604" expanded="true" signature="444:3772" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="510:3770" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="977:1151" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="1301:2120" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="2172:2227" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="2306:3764" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="2408:3658" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="2639:3476" ph="{...}" />
+                <marker date="1542200638604" expanded="true" signature="3529:3644" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding>
+                <marker date="1542203213676" expanded="true" signature="27:67" ph="@..." />
+                <marker date="1542203213676" expanded="true" signature="98:1551" ph="&lt;div.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="120:1544" ph="&lt;div.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="151:1533" ph="&lt;form.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="358:616" ph="&lt;div.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="629:878" ph="&lt;div.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="891:1149" ph="&lt;div.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="1162:1441" ph="&lt;div.../&gt;" />
+                <marker date="1542203213676" expanded="true" signature="1553:1622" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Topics/View.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+              <folding>
+                <marker date="1542203594145" expanded="false" signature="7:74" ph="..." />
+                <marker date="1542203594145" expanded="true" signature="93:139" ph="@..." />
+                <marker date="1542203594145" expanded="true" signature="192:857" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="222:793" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="255:468" ph="&lt;a.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="342:455" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="564:782" ph="&lt;a.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="652:769" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="865:1793" ph="@..." />
+                <marker date="1542203594145" expanded="true" signature="899:1793" ph="{...}" />
+                <marker date="1542203594145" expanded="true" signature="906:1791" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="1094:1780" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="1131:1507" ph="@..." />
+                <marker date="1542203594145" expanded="true" signature="1155:1507" ph="{...}" />
+                <marker date="1542203594145" expanded="true" signature="1186:1493" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="1229:1470" ph="&lt;a.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="1520:1764" ph="&lt;div.../&gt;" />
+                <marker date="1542203594145" expanded="true" signature="1591:1745" ph="@..." />
+                <marker date="1542203594145" expanded="true" signature="1650:1745" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding>
+                <marker date="1542204443671" expanded="true" signature="16:3444" ph="&lt;html.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="23:844" ph="&lt;head.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="192:382" ph="&lt;environment.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="387:836" ph="&lt;environment.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="845:3436" ph="&lt;body.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="856:1779" ph="&lt;nav.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="917:1768" ph="&lt;div.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="953:1470" ph="&lt;div.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="997:1341" ph="&lt;button.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="1483:1753" ph="&lt;div.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="1538:1685" ph="&lt;ul.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="1785:1948" ph="&lt;div.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="1867:1937" ph="&lt;footer.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="1954:2208" ph="&lt;environment.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="2213:3117" ph="&lt;environment.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="2257:2605" ph="&lt;script.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="2614:3023" ph="&lt;script.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="3123:3380" ph="@..." />
+                <marker date="1542204443671" expanded="true" signature="3153:3380" ph="{...}" />
+                <marker date="1542204443671" expanded="true" signature="3168:3374" ph="&lt;script.../&gt;" />
+                <marker date="1542204443671" expanded="true" signature="3219:3354" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch.sln">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_PostAddPartial.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding>
+                <marker date="1542203999746" expanded="true" signature="47:762" ph="&lt;fieldset.../&gt;" />
+                <marker date="1542203999746" expanded="true" signature="66:746" ph="@..." />
+                <marker date="1542203999746" expanded="true" signature="180:746" ph="{...}" />
+                <marker date="1542203999746" expanded="true" signature="291:490" ph="&lt;div.../&gt;" />
+                <marker date="1542203999746" expanded="true" signature="503:664" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Controllers/TopicsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
+              <folding>
+                <marker date="1542204306532" expanded="false" signature="6:367" ph="..." />
+                <marker date="1542204306532" expanded="true" signature="449:7485" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="872:1008" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="1058:1231" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="1277:1404" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="1463:1510" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="1931:3529" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="1977:3487" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="2068:2625" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="2443:2607" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="2790:2961" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="3022:3226" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="3636:5536" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="3877:4219" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="4007:4203" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="4256:5492" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="4346:4901" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="4718:4883" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="5048:5248" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="5763:6672" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="5994:6259" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="6064:6195" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="6716:7209" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="7002:7197" ph="{...}" />
+                <marker date="1542204306532" expanded="true" signature="7348:7479" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+              <folding>
+                <marker date="1542200627473" expanded="true" signature="25:63" ph="@..." />
+                <marker date="1542200627473" expanded="true" signature="93:1902" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="115:1895" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="162:1884" ph="&lt;section.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="184:1865" ph="&lt;form.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="390:664" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="681:955" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="972:1320" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1017:1297" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1064:1270" ph="&lt;label.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1337:1466" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1483:1845" ph="&lt;div.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1528:1658" ph="&lt;p.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1679:1822" ph="&lt;p.../&gt;" />
+                <marker date="1542200627473" expanded="true" signature="1904:1973" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AspNetRoles</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Controllers/ImagesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/ImageModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA1462E7-5953-44D6-AB47-24511181C773/1a/4b751149/RazorPage`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6E6FB8C2-ED39-43D4-A24C-AAD63E0F7A0B/4b/83b5b261/FileExtensionsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/DisplayTemplates/_PrettyDateTemplate.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/VoteModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Topics/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8DAB0DA8-DB38-40E3-9D01-306A01829087/dd/5e08f251/PartialTagHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/IdentityHostingStartup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/TopicModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_PostAddPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Controllers/TopicsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Services/EmailSender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Topics/Create.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Pages/Account/Manage/_ManageNav.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Pages/Account/Manage/_ViewImports.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Pages/Account/Manage/Index.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Migrations/20181114112907_Initial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/AddPostView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/TopicView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/PostModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Topics/View.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/CreateTopicView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/ImageUploader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Validators/FormFileValidatorAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AEB8D65B-8193-4253-A261-6D1123CB7C2A/28/c6005053/Bitmap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Sirius2Ch/Data/ForumDbContext.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Data/Migrations/20181113133942_Initial.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Data/Migrations/20181113134408_Initial.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/ImageUploader.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Data/Migrations/ApplicationDbContextModelSnapshot.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/Post.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/Image.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/Vote.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/Topic.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Views/Topics/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Validators/FormFileValidator.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/AddPostView.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/CreateTopicView.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Views/Topics/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Validators/FormFileValidatorAttribute.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/TopicView.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Controllers/ImagesController.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/TopicModel.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Models/PostModel.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Services/EmailSender.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Startup.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/IdentityHostingStartup.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Views/Topics/View.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Views/Shared/_PostAddPartial.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Controllers/TopicsController.cs" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Sirius2Ch/wwwroot/css/site.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="76" />
+    <option name="y" value="85" />
+    <option name="width" value="902" />
+    <option name="height" value="484" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Identity" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Identity" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Identity" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Pages" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Account" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Validators" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DisplayTemplates" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Topics" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sirius2Ch" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="css" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Sirius2Ch/bin/Debug/netcoreapp2.1/Sirius2Ch.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sirius2Ch" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Sirius2Ch/Sirius2Ch.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfde1335-446b-46bf-9b72-86ab743c32a5" name="Default Changelist" comment="" />
+      <created>1542053003359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542053003359</updated>
+      <workItem from="1542053005672" duration="4578000" />
+      <workItem from="1542088095409" duration="33212000" />
+      <workItem from="1542125087924" duration="25303000" />
+      <workItem from="1542193237444" duration="9771000" />
+      <workItem from="1542207904305" duration="753000" />
+      <workItem from="1542212739565" duration="820000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1542213564976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542213564976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74437000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3159091" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4543947" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.5638474" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.32669982" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>size.Height / d</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>size.Width / d</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Data/Sirius2ChIdentityDbContext.cs" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Data/ApplicationDbContext.cs" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Models/CreateTopicView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Models/PostModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Models/TopicModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Migrations/20181114112907_Initial.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4737" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Models/TopicView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_CookieConsentPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Data/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ExternalLogin.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/ExternalLogin.cshtml.cs" />
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Lockout.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Services/EmailSender.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Pages/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Pages/Account/Manage/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Pages/Account/Manage/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Pages/Account/Manage/_ManageNav.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Manage/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1542202725508" expanded="true" signature="0:221" ph="&lt;environment.../&gt;" />
+            <marker date="1542202725508" expanded="true" signature="222:1153" ph="&lt;environment.../&gt;" />
+            <marker date="1542202725508" expanded="true" signature="262:656" ph="&lt;script.../&gt;" />
+            <marker date="1542202725508" expanded="true" signature="661:1138" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/ScaffoldingReadme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/IdentityHostingStartup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <marker date="1542178052225" expanded="false" signature="6:275" ph="..." />
+            <marker date="1542178052225" expanded="true" signature="455:621" ph="{...}" />
+            <marker date="1542178052225" expanded="true" signature="516:615" ph="{...}" />
+            <marker date="1542178052225" expanded="true" signature="588:603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+          <folding>
+            <marker date="1542200638604" expanded="false" signature="6:394" ph="..." />
+            <marker date="1542200638604" expanded="true" signature="444:3772" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="510:3770" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="977:1151" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="1301:2120" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="2172:2227" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="2306:3764" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="2408:3658" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="2639:3476" ph="{...}" />
+            <marker date="1542200638604" expanded="true" signature="3529:3644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <marker date="1542203213676" expanded="true" signature="27:67" ph="@..." />
+            <marker date="1542203213676" expanded="true" signature="98:1551" ph="&lt;div.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="120:1544" ph="&lt;div.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="151:1533" ph="&lt;form.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="358:616" ph="&lt;div.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="629:878" ph="&lt;div.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="891:1149" ph="&lt;div.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="1162:1441" ph="&lt;div.../&gt;" />
+            <marker date="1542203213676" expanded="true" signature="1553:1622" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Topics/View.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <marker date="1542203594145" expanded="false" signature="7:74" ph="..." />
+            <marker date="1542203594145" expanded="true" signature="93:139" ph="@..." />
+            <marker date="1542203594145" expanded="true" signature="192:857" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="222:793" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="255:468" ph="&lt;a.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="342:455" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="564:782" ph="&lt;a.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="652:769" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="865:1793" ph="@..." />
+            <marker date="1542203594145" expanded="true" signature="899:1793" ph="{...}" />
+            <marker date="1542203594145" expanded="true" signature="906:1791" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="1094:1780" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="1131:1507" ph="@..." />
+            <marker date="1542203594145" expanded="true" signature="1155:1507" ph="{...}" />
+            <marker date="1542203594145" expanded="true" signature="1186:1493" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="1229:1470" ph="&lt;a.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="1520:1764" ph="&lt;div.../&gt;" />
+            <marker date="1542203594145" expanded="true" signature="1591:1745" ph="@..." />
+            <marker date="1542203594145" expanded="true" signature="1650:1745" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_PostAddPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <marker date="1542203999746" expanded="true" signature="47:762" ph="&lt;fieldset.../&gt;" />
+            <marker date="1542203999746" expanded="true" signature="66:746" ph="@..." />
+            <marker date="1542203999746" expanded="true" signature="180:746" ph="{...}" />
+            <marker date="1542203999746" expanded="true" signature="291:490" ph="&lt;div.../&gt;" />
+            <marker date="1542203999746" expanded="true" signature="503:664" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Controllers/TopicsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <marker date="1542204306532" expanded="false" signature="6:367" ph="..." />
+            <marker date="1542204306532" expanded="true" signature="449:7485" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="872:1008" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="1058:1231" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="1277:1404" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="1463:1510" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="1931:3529" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="1977:3487" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="2068:2625" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="2443:2607" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="2790:2961" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="3022:3226" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="3636:5536" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="3877:4219" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="4007:4203" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="4256:5492" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="4346:4901" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="4718:4883" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="5048:5248" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="5763:6672" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="5994:6259" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="6064:6195" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="6716:7209" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="7002:7197" ph="{...}" />
+            <marker date="1542204306532" expanded="true" signature="7348:7479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Areas/Identity/Pages/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <marker date="1542200627473" expanded="true" signature="25:63" ph="@..." />
+            <marker date="1542200627473" expanded="true" signature="93:1902" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="115:1895" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="162:1884" ph="&lt;section.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="184:1865" ph="&lt;form.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="390:664" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="681:955" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="972:1320" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1017:1297" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1064:1270" ph="&lt;label.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1337:1466" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1483:1845" ph="&lt;div.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1528:1658" ph="&lt;p.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1679:1822" ph="&lt;p.../&gt;" />
+            <marker date="1542200627473" expanded="true" signature="1904:1973" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/wwwroot/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/wwwroot/css/site.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/wwwroot/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/wwwroot/js/site.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <marker date="1542204443671" expanded="true" signature="16:3444" ph="&lt;html.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="23:844" ph="&lt;head.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="192:382" ph="&lt;environment.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="387:836" ph="&lt;environment.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="845:3436" ph="&lt;body.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="856:1779" ph="&lt;nav.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="917:1768" ph="&lt;div.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="953:1470" ph="&lt;div.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="997:1341" ph="&lt;button.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="1483:1753" ph="&lt;div.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="1538:1685" ph="&lt;ul.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="1785:1948" ph="&lt;div.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="1867:1937" ph="&lt;footer.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="1954:2208" ph="&lt;environment.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="2213:3117" ph="&lt;environment.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="2257:2605" ph="&lt;script.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="2614:3023" ph="&lt;script.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="3123:3380" ph="@..." />
+            <marker date="1542204443671" expanded="true" signature="3153:3380" ph="{...}" />
+            <marker date="1542204443671" expanded="true" signature="3168:3374" ph="&lt;script.../&gt;" />
+            <marker date="1542204443671" expanded="true" signature="3219:3354" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sirius2Ch.sln">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
