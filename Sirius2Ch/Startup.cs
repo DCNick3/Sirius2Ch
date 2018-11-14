@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
@@ -33,6 +35,7 @@ namespace Sirius2Ch
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
+            
             services.AddIdentity<IdentityUser, IdentityRole>(o =>
                 {
                     o.Password.RequiredLength = 8;
@@ -44,6 +47,13 @@ namespace Sirius2Ch
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(o =>
+            {
+                o.AccessDeniedPath = "/Identity/Account/AccessDenied";
+                o.LoginPath = "/Identity/Account/Login";
+                o.LogoutPath = "/Identity/Account/Logout";
+            });
+            
             services.AddSingleton<IEmailSender, EmailSender>();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

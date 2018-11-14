@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Web;
 using System.Diagnostics;
 using System.Linq;
@@ -169,31 +170,36 @@ namespace Sirius2Ch.Controllers
         [Authorize]
         public IActionResult Vote(int id, bool vote)
         {
-            var topic = _context.Topics.Find(id);
-            if (topic == null)
-                return NotFound();
-            
-            var currentVote = GetUserTopicVote(topic);
-            if (currentVote == null)
+            using (var tran = _context.Database.BeginTransaction(IsolationLevel.Serializable))
             {
-                currentVote = new Vote
+                var topic = _context.Topics.Find(id);
+                if (topic == null)
+                    return NotFound();
+                
+                var currentVote = GetUserTopicVote(topic);
+                if (currentVote == null)
                 {
-                    Topic = topic,
-                    User = User.Identity.Name,
-                    Value = 0
-                };
-                _context.Votes.Add(currentVote);
+                    currentVote = new Vote
+                    {
+                        Topic = topic,
+                        User = User.Identity.Name,
+                        Value = 0
+                    };
+                    _context.Votes.Add(currentVote);
+                }
+    
+                var oldVal = currentVote.Value;
+                var wantDiff = vote ? 1 : -1;
+                var newVal = Math.Max(Math.Min(oldVal + wantDiff, 1), -1);
+                var realDiff = newVal - oldVal;
+    
+                currentVote.Value += realDiff;
+                topic.Rating += realDiff;
+                
+                _context.SaveChanges();
+                
+                tran.Commit();
             }
-
-            var oldVal = currentVote.Value;
-            var wantDiff = vote ? 1 : -1;
-            var newVal = Math.Max(Math.Min(oldVal + wantDiff, 1), -1);
-            var realDiff = newVal - oldVal;
-
-            currentVote.Value += realDiff;
-            topic.Rating += realDiff;
-            
-            _context.SaveChanges();
             
             return RedirectToAction("View", new { id });
         } 
